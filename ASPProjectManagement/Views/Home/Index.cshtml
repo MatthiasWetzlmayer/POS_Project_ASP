@@ -1,0 +1,12 @@
+@{
+  ViewData["Title"] = "Home Page";
+}
+<h1>MvcStudents Home Page</h1>
+<!-- Note: don't use styles directly in cshtml -->
+<div>
+<span style="background-color:green;font-size:24px">@ViewBag.Ok</span>
+<span style="background-color:red;font-size:24px">@ViewBag.Error</span>
+</div>
+<div>
+@ViewBag.Message
+</div>
